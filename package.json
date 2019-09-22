@@ -1,19 +1,23 @@
 {
-  "name": "wanikani_clone",
-  "version": "1.0.0",
-  "description": "For practice only.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jess-ho/wanikani_clone.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jess-ho/wanikani_clone/issues"
-  },
-  "homepage": "https://github.com/jess-ho/wanikani_clone#readme"
+	"name": "wanikani_clone",
+	"version": "1.0.0",
+	"description": "For practice only.",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jess-ho/wanikani_clone.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jess-ho/wanikani_clone/issues"
+	},
+	"homepage": "https://github.com/jess-ho/wanikani_clone#readme",
+	"dependencies": {
+		"netlify": "^2.4.8",
+		"prettier": "^1.18.2"
+	}
 }
